@@ -1,0 +1,2 @@
+streamlit==1.25.0  # Replace with your current version
+requests==2.31.0   # HTTP requests for API communication
