@@ -59,3 +59,7 @@ if category:
     for request_id in POSSIBLE_REQUESTS[category]:
         if st.button(request_id):
             send_request_to_api(bed_id, request_id)
+    outro = st.text_area("Outro", height=68)
+    if st.button("Enviar"):
+        send_request_to_api(bed_id, outro)  
+
